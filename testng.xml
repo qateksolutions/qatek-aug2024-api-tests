@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="api_tests">
+    <test name="API Automation Tests">
+        <classes>
+            <class name="api_test.SimpleGetTest"/>
+            <class name="api_test.GetTestWithPathVariable"/>
+            <class name="api_test.GetTestWithQueryParameter"/>
+            <class name="api_test.SimplePostTest"/>
+            <class name="api_test.SimplePatchTest"/>
+            <class name="api_test.SimplePutTest"/>
+            <class name="api_test.SimpleDeleteTest"/>
+        </classes>
+    </test>
+</suite>
